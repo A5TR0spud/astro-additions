@@ -13,7 +13,7 @@ maxAmmo: 10
 ammoPerShot: 2
 recoilAmount: 0
 ammoTypes: {
-  spore-pod: waterShot
+  water: waterShot
 }
 requirements: [
   graphite/75
