@@ -1,0 +1,13 @@
+name: mindustry-extras
+displayName: "Astronomical Additions [pre alpha]"
+author:
+  '''
+  A5TR0spud
+  '''
+description:
+  '''
+    Adds various things  
+  '''
+version: 0.0.1
+repo: A5TR0spud/mindustry-extras
+minGameVersion: 135
