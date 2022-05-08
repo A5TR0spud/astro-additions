@@ -1,15 +1,6 @@
 # Current Features:
-  Gasket - water gun
+  Gasket - spore gun
 # Planned Features:
-Gasket - turn into spore cloud gun
-
-Purple units across the board
-
-Blue units
-
-Surge Rail - Plastanium Bridge
-
-Phase Conveyor - Same throughput as plast
+Gasket - fix lifetime
 
 Mass Cannon - Mass Driver, as a weapon
-
