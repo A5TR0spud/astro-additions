@@ -1,4 +1,4 @@
-type: ItemTurret
+type: LiquidTurret
 name: "Gasket[]"
 description: "currently a water gun, will eventually shoot toxic spore clouds"
 size: 2
@@ -14,15 +14,16 @@ ammoPerShot: 1
 recoilAmount: 0
 shootSound: none
 ammoTypes: {
-	spore-pod:{
-        type: LiquidBulletType
-        liquid: mindustry-extras-spore-vapours
-        damage: 0.5
-        lifetime: 50
-        knockback: 0
-        reflectable: false
-        size: 7
-    }
+	mindustry-extras-noxious-gas:{
+      	type: LiquidBulletType
+      	liquid: astro-adds-noxious-gas
+      	damage: 0.5
+      	lifetime: 50
+      	knockback: 0
+      	reflectable: false
+		lifetime: 60
+      	size: 7
+	}
 }
 requirements: [
 	graphite/75

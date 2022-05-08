@@ -1,0 +1,7 @@
+name: "Noxious Gas"
+alwaysUnlocked: true
+gas: true
+effect: tarred
+color: 7457ce
+barColor: 7457ce
+flammability: 1.15
