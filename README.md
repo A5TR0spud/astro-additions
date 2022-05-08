@@ -1,8 +1,8 @@
-# Current Features:
+# Current:
   Gasket - Noxious gas gunner
   
   Aerosolizer - Spores to noxious gas
-# Planned Features:
+# Planned:
 Gasket - fix projectiles
 
 Migrate to .js
