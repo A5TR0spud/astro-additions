@@ -10,7 +10,6 @@ Migrate to .js
 Removal of aerosolizer in favour of overriding cultivator to produce fumes _and_ spores
 
 Possible change to spore press, allowing noxious gas to be compressed into spore pods
-  (Default output is a liquid so this shouldn't be a problem)
 
 Mass Cannon - Mass Driver, as a weapon
 
