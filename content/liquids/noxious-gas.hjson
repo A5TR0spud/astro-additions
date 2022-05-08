@@ -1,7 +1,7 @@
 name: "Noxious Gas"
-alwaysUnlocked: true
+research: spore-pod
 gas: true
-effect: tarred
+effect: spore-slowed
 color: 7457ce
 barColor: 7457ce
 flammability: 1.15

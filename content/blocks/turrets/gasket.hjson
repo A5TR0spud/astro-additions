@@ -2,14 +2,12 @@ type: LiquidTurret
 name: "Gasket[]"
 description: "currently a water gun, will eventually shoot toxic spore clouds"
 size: 2
-acceptCoolant: false
 health: 1000
-reloadTime: 3
 range: 110
 inaccuracy: 5
 shootCone: 50
 targetAir: true
-maxAmmo: 10
+maxAmmo: 20
 ammoPerShot: 1
 recoilAmount: 0
 shootSound: none
@@ -21,8 +19,6 @@ ammoTypes: {
       	lifetime: 50
       	knockback: 0
       	reflectable: false
-		lifetime: 60
-      	size: 7
 	}
 }
 requirements: [

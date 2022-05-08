@@ -1,0 +1,25 @@
+name: "Aerosolizer[]"
+description: "Churns spore pods into heavy mist."
+type: GenericCrafter
+size: 2
+hasPower: true
+hasLiquids: true
+liquidCapacity: 60
+itemCapacity: 10
+craftTime: 120
+requirements: [
+  lead/35
+  silicon/30
+]
+consumes: {
+  power: 0.7
+    items: {
+      items: [
+      spore-pod/1
+      ]
+   }
+}
+outputLiquid: astro-adds-noxious-gas/0.25
+category: crafting
+research: spore-press
+drawSpinSprite: true
