@@ -14,7 +14,7 @@ ammoPerShot: 1
 recoilAmount: 0
 shootSound: none
 ammoTypes: {
-	mindustry-extras-noxious-gas:{
+	astro-adds-noxious-gas:{
       	type: LiquidBulletType
       	liquid: astro-adds-noxious-gas
       	damage: 0.5
