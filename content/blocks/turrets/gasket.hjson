@@ -17,10 +17,10 @@ ammoTypes: {
       	damage: 2
       	knockback: 0
       	reflectable: false
-		lifetime: 60
+		lifetime: 70
 		inaccuracy: 45
 		speed:3
-		drag:0.05
+		drag:0.03
 		orbSize: 11
 		hitSize: 9
 		puddleSize: 0
