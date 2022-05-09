@@ -1,8 +1,10 @@
-# Current:
+This is Very Experimental™
+
+## Current:
   Gasket - Noxious gas gunner
   
   Aerosolizer - Spores to noxious gas
-# Planned:
+## Planned:
 Gasket - fix projectiles
 
 Migrate to .js
