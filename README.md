@@ -1,11 +1,11 @@
-# Current:
+This is Very Experimental™
+
+## Current:
   Gasket - Noxious gas gunner
   
   Aerosolizer - Spores to noxious gas
-# Planned:
+## Planned:
 Gasket - fix projectiles
-
-Migrate to .js
 
 Removal of aerosolizer in favour of overriding cultivator to produce fumes _and_ spores
 
