@@ -1,7 +1,4 @@
-name: "Noxious Gas"
 research: spore-pod
 gas: true
-effect: spore-slowed
 color: 7457ce
-barColor: 7457ce
 flammability: 1.15

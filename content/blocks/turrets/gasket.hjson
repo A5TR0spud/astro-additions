@@ -1,23 +1,37 @@
 type: LiquidTurret
 size: 2
 health: 1000
+reload: 3
 range: 110
-inaccuracy: 5
+inaccuracy: 45
 shootCone: 50
-targetAir: true
 maxAmmo: 20
 ammoPerShot: 1
+recoil: 0
 recoilAmount: 0
 shootSound: none
 ammoTypes: {
 	astro-adds-noxious-gas:{
       	type: LiquidBulletType
-      	liquid: astro-adds-noxious-gas
+      	liquid: astro-adds-noxious-liquid
       	damage: 2
-      	lifetime: 50
       	knockback: 0
       	reflectable: false
+		lifetime: 60
+		inaccuracy: 45
+		speed:3
+		drag:0.05
 		orbSize: 11
+		hitSize: 9
+		puddleSize: 0
+		pierce: true
+		pierceBuilding: true
+		collidesTiles: true
+		hittable: false
+		absorbable: false
+		makeFire: true
+		status: spore-slowed
+		ammoMultiplier: 4
 	}
 }
 requirements: [
@@ -27,5 +41,3 @@ requirements: [
 category: turret
 research: wave
 extinguish: false
-liquidRegion: wave-liquid
-topRegion: wave-top
