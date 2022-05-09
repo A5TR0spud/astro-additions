@@ -5,8 +5,6 @@ This is Very Experimental™
   
   Aerosolizer - Spores to noxious gas
 ## Planned:
-Gasket - fix projectiles
-
 Removal of aerosolizer in favour of overriding cultivator to produce fumes _and_ spores
 
 Possible change to spore press, allowing noxious gas to be compressed into spore pods
