@@ -7,8 +7,6 @@ This is Very Experimental™
 ## Planned:
 Gasket - fix projectiles
 
-Migrate to .js
-
 Removal of aerosolizer in favour of overriding cultivator to produce fumes _and_ spores
 
 Possible change to spore press, allowing noxious gas to be compressed into spore pods
