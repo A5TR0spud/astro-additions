@@ -22,4 +22,3 @@ consumes: {
 outputLiquid: astro-adds-noxious-gas/0.25
 category: crafting
 research: spore-press
-drawSpinSprite: true

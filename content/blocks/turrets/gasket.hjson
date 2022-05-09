@@ -1,6 +1,4 @@
 type: LiquidTurret
-name: "Gasket[]"
-description: "currently a water gun, will eventually shoot toxic spore clouds"
 size: 2
 health: 1000
 range: 110
@@ -15,10 +13,11 @@ ammoTypes: {
 	astro-adds-noxious-gas:{
       	type: LiquidBulletType
       	liquid: astro-adds-noxious-gas
-      	damage: 0.5
+      	damage: 2
       	lifetime: 50
       	knockback: 0
       	reflectable: false
+		orbSize: 11
 	}
 }
 requirements: [
@@ -27,3 +26,6 @@ requirements: [
 ]
 category: turret
 research: wave
+extinguish: false
+liquidRegion: wave-liquid
+topRegion: wave-top
