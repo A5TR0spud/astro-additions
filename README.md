@@ -3,12 +3,11 @@ This is Very Experimental™
 ## Current:
   Gasket - Noxious gas gunner
   
-  Aerosolizer - Spores to noxious gas
+  WIP Incubator - 3x3 Cultivator
+  
+  WIP Unit - Javelin
+  
 ## Planned:
-Removal of aerosolizer in favour of overriding cultivator to produce fumes _and_ spores
-
-Possible change to spore press, allowing noxious gas to be compressed into spore pods
-
 Mass Cannon - Mass Driver, as a weapon
 
 Erekir turrets
