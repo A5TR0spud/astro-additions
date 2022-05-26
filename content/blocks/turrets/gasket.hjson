@@ -8,7 +8,6 @@ shootCone: 50
 maxAmmo: 20
 ammoPerShot: 1
 recoil: 0
-recoilAmount: 0
 shootSound: none
 ammoTypes: {
 	astro-adds-noxious-gas:{

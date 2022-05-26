@@ -7,3 +7,7 @@
 //TODO
 //override cultivator
 //override gasket draw
+
+//cultivator = override(AttributeCrafter, "cultivator", {
+//	outputLiquid: astro-adds-noxious-gas/1
+//}) figure this out

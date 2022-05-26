@@ -1,0 +1,84 @@
+type: hover
+health: 200
+armor: 2
+speed: 4
+accel: 0.09
+drag: 0.08
+engineSize: 2.2
+engineOffset: 6
+range: 7
+canDrown: false
+itemCapacity: 30
+mineTier: 0
+mineSpeed: 0
+buildSpeed: 0
+hitSize: 9
+targetGround: true
+targetAir: false
+rotateSpeed: 8
+hovering: true
+shadowElevation: 0.1
+useEngineElevation: false
+outlineColor: 2d2f39
+trailLength: 4
+rotateMoveFirst: true
+omniMovement: false
+groundLayer: 60
+
+controller: SuicideAI
+
+engines: [
+	{
+	x: -6
+	y: -6
+	radius: 1.75
+	rotation: -135
+	}
+	{
+	x: 6
+	y: -6
+	radius: 1.75
+	rotation: 315
+	}
+]
+
+#parts: [
+	#{
+	#type: RegionPart
+	#x: 5
+	#y: 5
+	#mirror: true
+	#radius: 20
+	#phase: 90
+	#stroke: 2
+	#layerOffset: -0.001
+	#color: bf92f9
+	#}
+#]
+
+weapons: [
+	{
+	name: javelin-charge
+	shootOnDeath: true
+	reload: 24
+	shootCone: 180
+	shootSound: explosion
+	x:0
+	shootY: 0
+	mirror: false
+	bullet:{
+		type: BulletType
+		collidesTiles: false
+		hitSound: explosion
+		rangeOverride: 30
+		hitEffect: pulverize
+		speed: 0
+		splashDamageRadius: 45
+		instantDisappear: true
+		splashDamage: 120
+		killShooter: true
+		hittable: false
+		collidesAir: true
+		}
+	}
+]
