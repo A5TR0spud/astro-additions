@@ -1,11 +1,6 @@
 type: hover
-health: 200
-armor: 2
-speed: 4
-accel: 0.09
-drag: 0.08
-engineSize: 2.2
-engineOffset: 6
+health: 500
+armor: 10
 range: 7
 canDrown: false
 itemCapacity: 30
@@ -15,29 +10,37 @@ buildSpeed: 0
 hitSize: 9
 targetGround: true
 targetAir: false
-rotateSpeed: 8
 hovering: true
 shadowElevation: 0.1
-useEngineElevation: false
 outlineColor: 2d2f39
-trailLength: 4
-rotateMoveFirst: true
-omniMovement: false
 groundLayer: 60
 
 controller: SuicideAI
 
+	#speeds
+rotateSpeed: 6
+speed: 4.25
+accel: 0.03
+drag: 0.03
+rotateMoveFirst: true
+omniMovement: false
+
+	#engine
+trailLength: 4
+engineSize: 2.2
+engineOffset: 7
+useEngineElevation: false
 engines: [
 	{
-	x: -6
-	y: -6
-	radius: 1.75
+	x: -5.5
+	y: -5
+	radius: 2.2
 	rotation: -135
 	}
 	{
-	x: 6
-	y: -6
-	radius: 1.75
+	x: 5.5
+	y: -5
+	radius: 2.2
 	rotation: 315
 	}
 ]
@@ -75,10 +78,38 @@ weapons: [
 		speed: 0
 		splashDamageRadius: 45
 		instantDisappear: true
-		splashDamage: 120
+		splashDamage: 90
 		killShooter: true
 		hittable: false
 		collidesAir: true
 		}
 	}
+
+	#{
+  	#name: javelin-torpedo
+	#controllable: false
+	#autoTarget: true
+   	#reload: 15
+    	#x: 2
+   	#y: 2
+    	#shootY: 1
+   	#recoil: 1
+   	#rotate: false
+    	#shootSound: missile
+   	#shootCone: 25
+   	#bullet:{
+    		#type: MissileBulletType
+     	 	#damage: 19
+     	      #backColor: 8ca9e8
+     		#frontColor: ffffff
+    	  	#speed: 6
+      	#lifetime: 30
+      	#weaveScale: 14
+      	#weaveMag: 2
+      	#hitEffect: blastExplosion
+      	#despawnEffect: blastExplosion
+      	#trailColor: b6c6fd
+      	#drag: -0.001
+    		#}
+ 	#}
 ]
