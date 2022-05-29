@@ -26,38 +26,62 @@ rotateMoveFirst: true
 omniMovement: false
 
 	#engine
-trailLength: 4
+trailLength: 0
 engineSize: 2.2
 engineOffset: 7
 useEngineElevation: false
-engines: [
+#engines: [
+	#{
+	#x: -5.5
+	#y: -5
+	#radius: 2.2
+	#rotation: -135
+	#}
+	#{
+	#x: 5.5
+	#y: -5
+	#radius: 2.2
+	#rotation: 315
+	#}
+#]
+
+
+parts: [
 	{
-	x: -5.5
-	y: -5
-	radius: 2.2
-	rotation: -135
+	type: hoverPart
+	x: 3.9
+	y: -3
+	mirror: true
+	radius: 6
+	phase: 90
+	stroke: 2
+	layerOffset: -0.001
+	color: d1efff
 	}
 	{
-	x: 5.5
-	y: -5
-	radius: 2.2
-	rotation: 315
+	type: hoverPart
+	x: 3.5
+	y: 4
+	mirror: true
+	radius: 6
+	phase: 90
+	stroke: 2
+	layerOffset: -0.001
+	color: d1efff
 	}
 ]
 
-#parts: [
-	#{
-	#type: RegionPart
-	#x: 5
-	#y: 5
-	#mirror: true
-	#radius: 20
-	#phase: 90
-	#stroke: 2
-	#layerOffset: -0.001
-	#color: bf92f9
-	#}
-#]
+abilities: [
+	{
+	type: moveEffectAbility
+	#0, -7, sapBulletBack, missileTrailShort, 4
+	x: 0
+	y: -7
+	teamColor: true
+	effect: missileTrailShort
+	interval: 4
+	}
+]
 
 weapons: [
 	{
@@ -84,32 +108,4 @@ weapons: [
 		collidesAir: true
 		}
 	}
-
-	#{
-  	#name: javelin-torpedo
-	#controllable: false
-	#autoTarget: true
-   	#reload: 15
-    	#x: 2
-   	#y: 2
-    	#shootY: 1
-   	#recoil: 1
-   	#rotate: false
-    	#shootSound: missile
-   	#shootCone: 25
-   	#bullet:{
-    		#type: MissileBulletType
-     	 	#damage: 19
-     	      #backColor: 8ca9e8
-     		#frontColor: ffffff
-    	  	#speed: 6
-      	#lifetime: 30
-      	#weaveScale: 14
-      	#weaveMag: 2
-      	#hitEffect: blastExplosion
-      	#despawnEffect: blastExplosion
-      	#trailColor: b6c6fd
-      	#drag: -0.001
-    		#}
- 	#}
 ]

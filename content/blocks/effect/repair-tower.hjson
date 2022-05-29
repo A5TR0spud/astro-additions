@@ -1,0 +1,41 @@
+type: PowerTurret
+size: 2
+health: 1200
+reload: 8
+range: 160
+recoil: 0
+shootSound: lasershoot
+outlineColor: 2d2f39
+
+consumes: {
+	power: 2
+}
+
+requirements: [
+	silicon/100
+	oxide/30
+	thorium/40
+]
+
+shootType: {
+      type: LaserBoltBulletType
+      damage: 10
+      knockback: 0
+	lifetime: 35
+	healPercent: 5.5
+	collidesTeam: true
+	backColor: 98ffa9
+	frontColor: ffffff
+	speed: 5
+}
+
+shoot: {
+	type: shootAlternate
+	shots: 1
+	barrels: 2
+	spread: 8
+	shotDelay: 0
+}
+
+category: effect
+research: build-tower

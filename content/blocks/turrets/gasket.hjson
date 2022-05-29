@@ -37,6 +37,7 @@ requirements: [
 	graphite/75
 	metaglass/45
 ]
+
 category: turret
 research: wave
 extinguish: false
