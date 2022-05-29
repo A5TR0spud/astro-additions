@@ -10,7 +10,6 @@ This is Very Experimental™
   WIP Repair Tower
   
 ## Planned:
-Mass Cannon - Mass Driver, as a weapon
 
 Erekir turrets
 
