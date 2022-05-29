@@ -20,7 +20,7 @@ range: 5
 targetGround: true
 targetAir: true
 outlineColor: 2d2f39
-homingDelay: 0
+homingDelay: -1
 lowAltitude: true
 
 hidden: true

@@ -1,0 +1,41 @@
+type: PowerTurret
+size: 2
+health: 9999
+reload: 2
+range: 600
+recoil: 0
+shootSound: lasershoot
+outlineColor: 2d2f39
+rotateSpeed: 17
+
+requirements: [
+	beryllium/1
+]
+
+shootType: {
+      type: LaserBoltBulletType
+      damage: 999
+      knockback: 0
+	lifetime: 70
+	backColor: d4816b
+	frontColor: ffd37f
+	speed: 10
+	color: ffd37f
+	homingPower: 20
+	homingRange: 150
+	splashDamageRadius: 150
+	splashDamage: 200
+	hitEffect: pulverize
+	hitSound: explosion
+}
+
+shoot: {
+	type: shootAlternate
+	shots: 1
+	barrels: 2
+	spread: 8
+	shotDelay: 0
+}
+
+category: turret
+research: core-bastion

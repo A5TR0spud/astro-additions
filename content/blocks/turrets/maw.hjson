@@ -11,7 +11,7 @@ ammoPerShot: 1
 recoil: 3
 shootSound: none
 ammoTypes: {
-	metaglass:{
+	graphite:{
       	type: BulletType
       	shootEffect: none
 		smokeEffect: shootSmokeTitan
@@ -25,8 +25,8 @@ ammoTypes: {
 }
 requirements: [
 	graphite/75
-	metaglass/45
+	beryllium/45
 ]
 
 category: turret
-#research: wave
+research: core-bastion
