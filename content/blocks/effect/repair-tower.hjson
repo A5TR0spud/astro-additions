@@ -19,7 +19,7 @@ requirements: [
 
 shootType: {
       type: LaserBoltBulletType
-      damage: 10
+      damage: 3
       knockback: 0
 	lifetime: 35
 	healPercent: 5.5

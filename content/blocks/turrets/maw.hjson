@@ -1,0 +1,32 @@
+type: ItemTurret
+size: 3
+health: 1000
+outlineColor: 2d2f39
+reload: 30
+range: 220
+inaccuracy: 15
+shootCone: 50
+maxAmmo: 20
+ammoPerShot: 1
+recoil: 3
+shootSound: none
+ammoTypes: {
+	metaglass:{
+      	type: BulletType
+      	shootEffect: none
+		smokeEffect: shootSmokeTitan
+		hitColor: f98f4a
+		shake: 0
+		speed: 0
+		keepVelocity: false
+		
+		spawnUnit: astro-adds-maw-neo-tooth
+	}
+}
+requirements: [
+	graphite/75
+	metaglass/45
+]
+
+category: turret
+#research: wave

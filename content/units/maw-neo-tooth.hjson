@@ -1,0 +1,66 @@
+type: missile
+
+playerControllable: false
+createWreck: false
+logicControllable: false
+isEnemy: false
+useUnitCap: false
+allowedInPayloads: false
+controller: MissileAI
+flying: true
+physics: false
+trailLength: 7
+targetPriority: -1
+fogRadius: 2
+
+lifetime: 70
+
+health: 70
+range: 5
+targetGround: true
+targetAir: true
+outlineColor: 2d2f39
+homingDelay: 0
+lowAltitude: true
+
+hidden: true
+
+engineOffset: 0
+
+	#speeds
+rotateSpeed: 10
+speed: 4.6
+rotateMoveFirst: false
+omniMovement: true
+
+engineSize: 2
+
+engineColor: f98f4a
+trailColor: f98f4a
+
+weapons: [
+	{
+	name: javelin-charge
+	shootOnDeath: true
+	reload: 24
+	shootCone: 180
+	shootSound: explosion
+	x:0
+	shootY: 0
+	mirror: false
+	bullet:{
+		type: BulletType
+		collidesTiles: false
+		hitSound: explosion
+		rangeOverride: 30
+		hitEffect: pulverize
+		speed: 0
+		splashDamageRadius: 45
+		instantDisappear: true
+		splashDamage: 40
+		killShooter: true
+		hittable: false
+		collidesAir: true
+		}
+	}
+]
