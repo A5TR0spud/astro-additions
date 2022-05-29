@@ -27,6 +27,8 @@ shootType: {
 	splashDamage: 200
 	hitEffect: pulverize
 	hitSound: explosion
+	pierce: true
+	pierceBuilding: true
 }
 
 shoot: {
