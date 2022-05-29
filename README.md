@@ -3,12 +3,13 @@ This is Very Experimental™
 ## Current:
   Gasket - Noxious gas gunner
   
-  WIP Incubator - 3x3 Cultivator
+  Incubator - 3x3 Cultivator
   
-  WIP Unit - Javelin
+  Unit - Javelin
+  
+  WIP Repair Tower
   
 ## Planned:
-Mass Cannon - Mass Driver, as a weapon
 
 Erekir turrets
 
