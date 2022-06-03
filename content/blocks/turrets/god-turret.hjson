@@ -1,10 +1,12 @@
 type: PowerTurret
-size: 2
-health: 9999
-reload: 2
+size: 3
+health: -1
+scaledHealth: 5555
+reload: 25
 range: 600
-recoil: 0
-shootSound: lasershoot
+recoil: 1
+shootSound: laser
+accurateDelay: false
 outlineColor: 2d2f39
 rotateSpeed: 17
 
@@ -13,31 +15,45 @@ requirements: [
 ]
 
 shootType: {
-      type: LaserBoltBulletType
-      damage: 999
-      knockback: 0
-	lifetime: 70
-	backColor: d4816b
-	frontColor: ffd37f
-	speed: 10
-	color: ffd37f
-	homingPower: 20
-	homingRange: 150
-	splashDamageRadius: 150
-	splashDamage: 200
-	hitEffect: pulverize
-	hitSound: explosion
+      type: LaserBulletType
+      damage: 9999
+      knockback: 5
+	lifetime: 16
+	length: 600
+	hitSize: 10
+	drawSize: 400
 	pierce: true
 	pierceBuilding: true
+	pierceCap: 4
+	colors: [
+	ffd37f66
+	ffd37f
+	ffffff
+	]
+	#chargeEffect: {
+	#type: MultiEffect
+	#effects: [
+	#	lancerLaserCharge
+	#	lancerLaserChargeBegin	
+	#]
+	#}
 }
 
 shoot: {
 	type: shootAlternate
 	shots: 1
-	barrels: 2
-	spread: 8
-	shotDelay: 0
+	barrels: 3
+	spread: 5
+	shotDelay: 0 #40 = reload + (reload / barrels)
+	#firstShotDelay: 30
 }
+
+drawer: [
+	{
+	type: DrawTurret
+	basePrefix: reinforced-
+	}
+]
 
 category: turret
 research: core-bastion

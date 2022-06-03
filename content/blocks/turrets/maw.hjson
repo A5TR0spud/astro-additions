@@ -16,7 +16,6 @@ ammoTypes: {
       	shootEffect: none
 		smokeEffect: shootSmokeTitan
 		hitColor: f98f4a
-		shake: 0
 		speed: 0
 		keepVelocity: false
 		
@@ -26,6 +25,7 @@ ammoTypes: {
 requirements: [
 	graphite/75
 	beryllium/45
+	dormant-cyst/30
 ]
 
 category: turret

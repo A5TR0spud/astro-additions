@@ -13,14 +13,14 @@ requirements: [
 	metaglass/120
 ]
 consumes: {
-  power: 4
-    items: {
-      items: [
-        coal/1
-      ]}
-    liquids: {
-	liquids: [
-	  water/0.4
+	power: 4
+  	items: {
+      	items: [
+        	coal/1
+      	]}
+    	liquids: {
+		liquids: [
+	  	water/0.4
 	]}
 }
 drawer: [
@@ -32,6 +32,7 @@ drawer: [
 	}
 ]
 outputLiquid: astro-adds-noxious-gas/0.3
+ignoreLiquidFullness: true
 outputItem: spore-pod/3
 category: production
 research: cultivator
