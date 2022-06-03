@@ -25,26 +25,10 @@ drag: 0.03
 rotateMoveFirst: true
 omniMovement: false
 
-	#engine
 trailLength: 0
 engineSize: 2.2
 engineOffset: 7
 useEngineElevation: false
-#engines: [
-	#{
-	#x: -5.5
-	#y: -5
-	#radius: 2.2
-	#rotation: -135
-	#}
-	#{
-	#x: 5.5
-	#y: -5
-	#radius: 2.2
-	#rotation: 315
-	#}
-#]
-
 
 parts: [
 	{
@@ -74,12 +58,18 @@ parts: [
 abilities: [
 	{
 	type: moveEffectAbility
-	#0, -7, sapBulletBack, missileTrailShort, 4
 	x: 0
 	y: -7
 	teamColor: true
 	effect: missileTrailShort
 	interval: 4
+	}
+	{
+	type: MoveLightningAbility
+	maxSpeed: 4.25
+	chance: 0.1
+	length: 18
+	color: d1efff
 	}
 ]
 
