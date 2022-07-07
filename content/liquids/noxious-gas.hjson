@@ -1,4 +1,7 @@
 research: spore-pod
 gas: true
-color: 7457ce
+color: 7457ce40
+lightColor: 9e78dc
+barColor: 9e78dc
 flammability: 1.15
+coolant: false

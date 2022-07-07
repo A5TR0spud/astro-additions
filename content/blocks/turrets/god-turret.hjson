@@ -26,8 +26,8 @@ shootType: {
 	pierceBuilding: true
 	pierceCap: 4
 	colors: [
-	ffd37f66
-	ffd37f
+	f3e97966
+	f3e979
 	ffffff
 	]
 	#chargeEffect: {

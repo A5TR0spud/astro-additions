@@ -1,2 +1,2 @@
-require("content/items");
-//require("content/blocks");
+require("items");
+require("blocks");

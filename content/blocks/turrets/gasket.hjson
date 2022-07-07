@@ -1,6 +1,7 @@
 type: LiquidTurret
 size: 2
-health: 1000
+health: -1
+scaledHealth: 250
 reload: 3
 range: 110
 inaccuracy: 45

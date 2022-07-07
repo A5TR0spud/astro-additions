@@ -1,0 +1,41 @@
+type: ItemTurret
+size: 3
+health: 1000
+reload: 12.5
+range: 220
+inaccuracy: 10
+shootCone: 50
+maxAmmo: 20
+shootSound: artillery
+ammoPerShot: 1
+recoil: 2
+shootSound: none
+ammoTypes: {
+	graphite:{
+      	type: BasicBulletType
+		shootSound: artillery
+		reloadMultiplier: 0.6
+		ammoMultiplier: 4
+		lifetime: 80
+		speed: 3.75
+		damage: 22
+	}
+}
+requirements: [
+	graphite/75
+	beryllium/45
+	dormant-cyst/30
+]
+
+buildVisibility: sandboxOnly
+
+shoot: {
+	type: shootAlternate
+	shots: 6
+	barrels: 2
+	spread: 9
+	shotDelay: 1.5 #40 = reload + (reload / barrels)
+}
+
+category: turret
+research: core-bastion
