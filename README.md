@@ -1,6 +1,7 @@
 This is Very Experimental™
 
 # BROSKI PORT TO JAVA SO I CAN FINALLY FIX GASKET
+# NOTE THAT EVERYTHING WILL GET JUMBLED. this is ok.
 
 ## Current:
   Gasket - Noxious gas gunner
